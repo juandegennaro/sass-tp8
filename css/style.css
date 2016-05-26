@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Raleway:400,800";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: Raleway, sans-serif;
+  max-width: 1200px;
+  margin: auto; }
+
+nav#menu {
+  position: relative;
+  top: 30px; }
+  nav#menu img {
+    margin-left: 70px; }
+  nav#menu ul {
+    float: right; }
+    nav#menu ul li {
+      display: inline-block;
+      margin-right: 70px;
+      margin-top: 10px;
+      text-transform: uppercase; }
+      nav#menu ul li a {
+        text-decoration: none;
+        color: #000000; }
+        nav#menu ul li a:hover {
+          color: #808080; }
+
+section#contact {
+  margin-top: 60px;
+  width: 1200px;
+  height: 600px;
+  background-image: url(../assets/indexbanner-bg2.jpg);
+  position: relative; }
+
+.contact-title {
+  position: absolute;
+  top: 200px;
+  right: 70px;
+  bottom: 70px;
+  left: 70px; }
+
+h1 {
+  font-size: 45px;
+  color: #FFFFFF;
+  text-align: center; }
+
+h2 {
+  font-size: 30px;
+  color: #000000;
+  text-align: center; }
+
+h3 {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 130%; }
+
+h4 {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #000000;
+  text-align: center;
+  line-height: 130%; }
+
+section#form {
+  margin-top: 60px;
+  width: 1200px;
+  height: 400px;
+  color: #000000; }
+
+input {
+  display: block;
+  width: 400px;
+  height: 45px;
+  margin-top: 25px;
+  margin-left: 180px;
+  padding-left: 10px;
+  font-family: Raleway, sans-serif; }
+
+textarea {
+  float: right;
+  width: 400px;
+  height: 190px;
+  position: relative;
+  bottom: 202px;
+  right: 130px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: Raleway, sans-serif; }
+
+button {
+  width: 230px;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #3DA6EE;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-left: 507px; }
+
+section#hosting {
+  width: 1200px;
+  height: 150px;
+  background-color: #0C2340;
+  position: relative; }
+
+.hosting-text {
+  font-size: 20px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 65px;
+  left: 23%; }
+
+footer {
+  width: 1200px;
+  height: 100px;
+  background-color: #050B15;
+  position: relative; }
+  footer ul {
+    float: right;
+    margin-right: 255px; }
+    footer ul li {
+      display: inline-block;
+      margin-right: 70px;
+      margin-top: 50px;
+      text-transform: uppercase;
+      font-size: 10px; }
+      footer ul li a {
+        text-decoration: none;
+        color: #FFFFFF; }
+        footer ul li a:hover {
+          color: #808080; }
+
+/*# sourceMappingURL=style.css.map */
